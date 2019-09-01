@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -20,15 +19,15 @@ projects:
   sort_by: pushed # pushed or stars
   limit: 9
   exclude:
+    archived: true
     forks: false
     projects:
     # - repo-name
 
 social_media:
-  # available: behance dribbble facebook stackoverflow twitter youtube
   linkedin: gabrielecanepa
   medium: gabrielecanepa
-  website: gabrielecanepa.com
+  website: https://gabrielecanepa.com
 
 topics:
   - name: JavaScript
