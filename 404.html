@@ -1,0 +1,8 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Redirect</title>
+<script>
+  const path = location.pathname;
+  location.replace(path === '/' ? 'https://gabrielecanepa.com/' : 'https://guello.github.io' + path + location.search + location.hash);
+</script>
+<pre>Moved to <a href="https://guello.github.io/">guello.github.io</a>.</pre>
